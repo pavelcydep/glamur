@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding-left: 1rem;
+}
+.footer__container-center{
+    display: flex;
+    justify-content: center;
+}
+.footer__button{ 
+    margin-top: 30px;
+    border:solid 1px white;
+    color:white;
+    background-color: black;
+}
+.footer__img{
+ width: 16px;
+ height: 16px;
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+}

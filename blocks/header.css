@@ -1,0 +1,64 @@
+.header{
+background-color: black;   
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.header__fixed{
+position: sticky;
+top: 0;  
+}
+.header__text{
+    font-family:"Roboto" ;
+}
+.header__container{
+    display:flex;
+    justify-content: space-between;
+}
+.header__container{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+
+
+.header__contact-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style-type:none;
+}
+.header__logo{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+.phone{
+    margin-bottom: 0;
+}
+.list__card{
+    margin-right: 2rem;
+}
+.list__card:last-child{
+    margin-right: 0px;
+}
+.list__card_mobile{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .list__card_mobile{
+        display: flex;
+    } 
+}
+@media screen and (max-width: 425px) {
+   .icon{
+    width:16px;
+    height: 16px;
+   }
+   .phone{
+  font-size: 10px;
+}
+}

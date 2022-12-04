@@ -1,0 +1,86 @@
+.services{
+   
+}
+.services__title{
+    text-align: center;
+    font-family: "Oranienbaum";
+    margin-bottom: 50px;
+}
+.services__container-card{
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.services__card{
+    border: solid 1px #e1dcdc;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.services__card:hover{
+    border: solid 2px #e1dcdc;
+  
+box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card__price{
+    position: relative;
+    display: inline-block;   
+}
+.card__price::after{
+    content: '';
+          position: absolute;
+          left: 0;
+          top:0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('data:image/svg+xml;utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22100%25%22%20x2%3D%22100%25%22%20y2%3D%220%22%20stroke%3D%22%23F00%22%20stroke-width%3D%222%22%2F%3E%0A%3C%2Fsvg%3E');
+          background-size: cover;
+  }
+  .card__title{
+    text-align: center;
+    font-family: "Roboto";
+  }
+  .card__subtitle{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .card__text{
+    font-family: "Roboto";
+
+  }
+  .card__text_bold{
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .card__price-bold{
+    font-weight: bold;
+  }
+  .card__button{
+    border: none;
+    background-color: #eb2c2c;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .button__container{
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    .services__card{
+    margin-left: auto;
+    margin-right: auto;
+       
+      }
+}

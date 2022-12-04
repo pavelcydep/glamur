@@ -1,0 +1,31 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./stylish-help.css);
+@import url(./how.css);
+@import url(./writing.css);
+@import url(./services.css);
+@import url(./how-galery.css);
+@import url(./footer.css);
+p,span{
+    font-family: "Roboto";
+}
+h1,h2,h3{
+    font-family: "Oranienbaum"; 
+}
+.display-none{
+    display:none; 
+}
+
+@font-face {
+    font-family: "Oranienbaum";
+    src: url("../fonts/Oranienbaum-Regular.ttf");
+    src: url("../fonts/Oranienbaum-Regular.ttf") format("embedded-opentype"),
+      url("../fonts/Oranienbaum-Regular.ttf") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf")
+        format("embedded-opentype"),
+      url("../fonts/Roboto-Regular.ttf") format("woff");
+  }

@@ -1,0 +1,27 @@
+.main{
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    background-position: 50% 40%; 
+    background-repeat: repeat;
+    background-image: url(../images/bg-main.png);}
+    .main__title{
+        font-family:"Oranienbaum";  
+          font-size: 16px;
+          margin-left: 2rem;
+          
+        }
+        .main__subtitle{
+            margin-left: 2rem;
+            font-family:"Oranienbaum"; 
+            color:#f9dd94;
+            font-size: 14px;
+            display: inline;
+            padding-bottom: 0px;
+            border-bottom: 1px solid #f9dd94;
+        }
+        .main__logo{
+            margin-left: 2rem;
+            margin-top: 8rem;
+            margin-bottom: 3rem;
+        }     

@@ -1,0 +1,32 @@
+
+.how-galery{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.how-galery__container-card{
+    padding: 0;
+}
+.how-galery__title{
+   
+text-align: left;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+.how-galery__card{
+    width: 100%;
+    display:flex;
+ 
+   
+}
+.how-galery__img{
+    width: 30%;
+    height: 30%;
+    margin-right: 1rem;
+}
+.how-galery__text{
+    display: flex;
+    align-self: center;
+    width: 37%;
+   
+}

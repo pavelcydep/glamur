@@ -1,0 +1,78 @@
+.stylish-help{
+   background-color:white ;
+   overflow: hidden;
+    box-sizing:border-box ;
+    padding: 0;
+   
+    margin-bottom: 100px;
+}
+.stylish-help__line{
+       position: absolute;
+        top: 3rem;
+        left: -4rem;
+        background-color: red;
+        width: 15rem;
+        height: 2rem;
+        transform: rotate(-45deg);
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+}
+.stylish-help__image{
+    width: 100%;
+}
+.stylish-help__title{
+    font-family:"Oranienbaum" ;
+    text-align: center;
+    margin-top: 50px;
+}
+.stylish-help__text{
+    font-family:"Roboto" ;
+    text-align: center;
+}
+.stylish-help__container-text{
+
+    display: flex;
+    width: 70%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+.stylish-help__content{
+    position: relative;
+    overflow: hidden;
+}
+.line__text{
+    color:aliceblue;
+}
+@media screen and (max-width: 500px) {
+    .stylish-help__line{
+     display: none;
+          }
+       
+    .stylish-help__text{
+        font-family:"Roboto" ;
+        text-align: left;
+    }
+    .stylish-help__container-text{
+    
+        display: flex;
+        width: 70%;
+       
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    
+    }
+    .stylish-help__content{
+        position: relative;
+        overflow: hidden;
+    }
+    .line__text{
+        color:aliceblue;
+    }
+
+
+      }
